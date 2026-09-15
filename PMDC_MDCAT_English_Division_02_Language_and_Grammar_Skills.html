@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PMDC MDCAT English | Division 02</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@400;500;600;700;800&display=swap');
+:root{--navy:#102a43;--blue:#256d9d;--ink:#1f2933;--muted:#52606d;--bg:#f4f7fa;--card:#fff;--line:#d9e2ec;--soft:#e8f2f8;--purple:#f2eafa;--green:#e8f6ed;--yellow:#fff5d6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.68}
+main{max-width:1100px;margin:auto;padding:22px}
+.hero{background:linear-gradient(135deg,#102a43,#2875a5);color:white;border-radius:24px;padding:34px;margin-bottom:20px}
+h1,h2,h3,.hand{font-family:Handlee,cursive}
+h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.15;margin:12px 0}
+h2{font-size:1.8rem;color:var(--navy);border-bottom:2px solid var(--soft);padding-bottom:8px}
+h3{font-size:1.35rem;color:var(--navy)}
+p{margin:8px 0 12px}
+.badge{display:inline-block;border-radius:999px;padding:5px 11px;background:#d9edf9;color:#123d5b;font-size:.78rem;font-weight:800}
+.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:23px;margin:18px 0;box-shadow:0 4px 16px #102a4310}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.mini{border:1px solid var(--line);background:#fbfdff;border-radius:13px;padding:15px}
+.note,.roman,.rule,.warning{padding:14px 17px;border-left:5px solid var(--blue);border-radius:10px;background:var(--soft);margin:14px 0}
+.roman{border-left-color:#9556c7;background:var(--purple)}
+.rule{border-left-color:#2f855a;background:var(--green)}
+.warning{border-left-color:#c58a00;background:var(--yellow)}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:10px;vertical-align:top}
+th{background:var(--soft);color:var(--navy);text-align:left}
+.example{border:1px dashed #9fb3c8;background:#fbfcfe;border-radius:11px;padding:14px;margin:12px 0}
+.mcq{border:1px solid var(--line);border-radius:14px;padding:17px;margin:16px 0}
+.options label{display:block;background:#f7fafc;border-radius:8px;padding:8px 10px;margin:5px 0;cursor:pointer}
+.answer{display:none;background:var(--green);border-radius:10px;padding:12px;margin-top:10px}
+button{border:0;border-radius:10px;padding:10px 15px;background:var(--navy);color:white;font-weight:700;cursor:pointer;margin:4px}
+button:disabled{opacity:.6}
+.top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.small{font-size:.9rem;color:var(--muted)}
+.progress{height:10px;background:#d9e2ec;border-radius:999px;overflow:hidden}
+.progress span{display:block;width:0;height:100%;background:#2f855a}
+footer{color:var(--muted);font-size:.85rem;padding:18px 0}
+@media(max-width:600px){main{padding:11px}.hero,.card{padding:17px}table{font-size:.82rem}}
+@media print{button,.top{display:none!important}body{background:white}.card,.hero,.mcq{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<main id="document">
+<div class="top">
+<span class="badge">PMDC MDCAT English • Division 02</span>
+<div>
+<button id="pdf">Export as PDF</button>
+<button id="expand">Expand answers</button>
+<button id="reset">Reset MCQs</button>
+</div>
+</div>
+
+<header class="hero">
+<span class="badge">Language and Grammar Skills</span>
+<h1>Complete Revision File</h1>
+<p>2.1 Deduce the meanings of difficult words from the context using contextual clues.</p>
+<p>2.2 Explore synonyms with varying shades of meaning used for irony, parody and satire.</p>
+<p>2.3 Illustrate the use of pronoun–antecedent agreement.</p>
+<p>2.4 Illustrate the use of tenses.</p>
+<p>2.5 Illustrate the use of infinitives and infinitive phrases.</p>
+<p>2.6 Illustrate the use of gerunds and gerund phrases.</p>
+<p class="small" style="color:#e7f3fb">English explanations • Roman Urdu memory tricks • analysis • advanced practice</p>
+</header>
+
+<section class="card">
+<h2>Coverage Check</h2>
+<table>
+<tr><th>Syllabus item</th><th>Included in this file</th></tr>
+<tr><td>2.1 Contextual meaning</td><td>Context clues, morphology, denotation/connotation, precision, advanced examples and MCQs</td></tr>
+<tr><td>2.2 Synonyms, irony, parody and satire</td><td>Shades of meaning, register, tone, semantic intensity and literary applications</td></tr>
+<tr><td>2.3 Pronoun–antecedent agreement</td><td>Number, person, gender, indefinite pronouns, compound antecedents, collective nouns and ambiguity</td></tr>
+<tr><td>2.4 Tenses</td><td>All 12 standard tense forms, uses, signal words, timelines, contrasts and error traps</td></tr>
+<tr><td>2.5 Infinitives and infinitive phrases</td><td>To-infinitive, bare infinitive, functions, split infinitives, passive/perfect forms and phrase analysis</td></tr>
+<tr><td>2.6 Gerunds and gerund phrases</td><td>Gerund vs present participle, functions, possessives, prepositions, contrasts and phrase analysis</td></tr>
+</table>
+<div class="warning"><strong>Source honesty:</strong> The advanced MCQs in this file are original practice questions. They are not presented as official PMDC past-paper questions. Past-paper wording should only be labelled officially when the paper and year can be verified.</div>
+</section>
+
+<section class="card">
+<h2>2.1 — Deduce Difficult Word Meanings from Context</h2>
+<h3>What is contextual deduction?</h3>
+<p>Contextual deduction means inferring the meaning of an unfamiliar word from the words, phrases, sentences and situation surrounding it.</p>
+<div class="roman"><strong>Roman Urdu trick:</strong> Unknown word ko dekh kar panic nahi karna. Sentence ke clues ko detective ki tarah connect karein: definition, example, contrast, cause, result aur overall mood.</div>
+
+<h3>Types of contextual clues</h3>
+<table>
+<tr><th>Clue</th><th>How it works</th><th>Example</th></tr>
+<tr><td>Definition</td><td>The writer directly explains the word.</td><td>A <em>herbivore</em>, an animal that eats plants, avoids meat.</td></tr>
+<tr><td>Synonym</td><td>A similar word appears nearby.</td><td>The route was <em>arduous</em>, extremely difficult and tiring.</td></tr>
+<tr><td>Antonym/contrast</td><td>Opposite information gives the meaning.</td><td>Unlike his generous sister, he was <em>parsimonious</em>.</td></tr>
+<tr><td>Example</td><td>Specific examples identify the category.</td><td>Arboreal animals, such as monkeys and sloths, live in trees.</td></tr>
+<tr><td>Cause/effect</td><td>A cause or result clarifies the word.</td><td>The ground was <em>parched</em>; months without rain had dried it.</td></tr>
+<tr><td>Inference</td><td>The situation suggests the meaning indirectly.</td><td>After the long march, the soldiers were <em>debilitated</em>.</td></tr>
+</table>
+
+<h3>Context deduction procedure</h3>
+<ol>
+<li>Read the entire sentence, not just the unknown word.</li>
+<li>Read one sentence before and after it.</li>
+<li>Identify the part of speech.</li>
+<li>Look for signal words: <em>that is, meaning, unlike, but, however, such as, therefore, because, consequently</em>.</li>
+<li>Predict a rough meaning before looking at the options.</li>
+<li>Replace the word with the predicted meaning.</li>
+<li>Check grammar, logic, tone and precision.</li>
+</ol>
+
+<h3>Signal words</h3>
+<table><tr><th>Signal</th><th>Likely clue</th></tr>
+<tr><td>that is, in other words, which means</td><td>Definition or restatement</td></tr>
+<tr><td>such as, for example, including</td><td>Example</td></tr>
+<tr><td>unlike, whereas, however, but</td><td>Contrast</td></tr>
+<tr><td>because, since, due to</td><td>Cause</td></tr>
+<tr><td>therefore, thus, consequently</td><td>Result</td></tr></table>
+
+<h3>Word parts and morphology</h3>
+<table><tr><th>Part</th><th>General meaning</th><th>Example</th></tr>
+<tr><td>anti-</td><td>against</td><td>antidote, antiwar</td></tr>
+<tr><td>bene-</td><td>good</td><td>beneficial, benevolent</td></tr>
+<tr><td>mal-</td><td>bad</td><td>malfunction, malicious</td></tr>
+<tr><td>pre-</td><td>before</td><td>preview, predict</td></tr>
+<tr><td>post-</td><td>after</td><td>postgraduate, postwar</td></tr>
+<tr><td>-less</td><td>without</td><td>fearless, careless</td></tr>
+<tr><td>-ful</td><td>full of</td><td>hopeful, useful</td></tr>
+<tr><td>-able/-ible</td><td>capable of being</td><td>readable, visible</td></tr></table>
+<div class="warning">Word parts are clues, not mathematical formulas. English contains borrowed words and historical exceptions, so never rely on a prefix alone.</div>
+
+<h3>Denotation, connotation and precision</h3>
+<p><strong>Denotation</strong> is the basic dictionary meaning. <strong>Connotation</strong> is the feeling or association a word carries.</p>
+<table><tr><th>Basic idea</th><th>Positive shade</th><th>Negative shade</th></tr>
+<tr><td>careful with money</td><td>thrifty</td><td>stingy</td></tr>
+<tr><td>confident</td><td>self-assured</td><td>arrogant</td></tr>
+<tr><td>persistent</td><td>determined</td><td>stubborn</td></tr>
+<tr><td>unusual</td><td>unique</td><td>strange</td></tr></table>
+<div class="roman"><strong>Memory trick:</strong> Dictionary meaning = denotation. Emotional colour = connotation. Same family ka word ho sakta hai, lekin tone bilkul change ho sakti hai.</div>
+</section>
+
+<section class="card">
+<h2>2.2 — Synonyms, Shades of Meaning, Irony, Parody and Satire</h2>
+<h3>Synonyms are not always interchangeable</h3>
+<p>Synonyms share a similar core meaning, but they may differ in intensity, formality, emotional tone, typical usage or implied judgment.</p>
+<table><tr><th>Core idea</th><th>Words</th><th>Difference</th></tr>
+<tr><td>Look</td><td>glance, gaze, stare, glare</td><td>Brief look; sustained look; intense look; angry look</td></tr>
+<tr><td>Walk</td><td>stroll, march, wander, trudge</td><td>Relaxed; purposeful; aimless; tiring/heavy</td></tr>
+<tr><td>Thin</td><td>slender, slim, skinny, gaunt</td><td>Often positive; neutral/positive; informal; unnaturally thin</td></tr>
+<tr><td>Speak</td><td>whisper, murmur, state, declare, proclaim</td><td>Volume and force differ</td></tr>
+<tr><td>Angry</td><td>annoyed, irritated, furious, enraged</td><td>Intensity increases</td></tr></table>
+
+<h3>Register and tone</h3>
+<table><tr><th>Informal</th><th>Neutral</th><th>Formal</th></tr>
+<tr><td>kids</td><td>children</td><td>young persons</td></tr>
+<tr><td>buy</td><td>purchase</td><td>procure/acquire</td></tr>
+<tr><td>help</td><td>assist</td><td>facilitate</td></tr>
+<tr><td>start</td><td>begin</td><td>commence</td></tr></table>
+<div class="warning">A formal synonym is not automatically better. The correct word must fit the audience, purpose and sentence.</div>
+
+<h3>Irony</h3>
+<p><strong>Irony</strong> involves a meaningful contrast between appearance and reality, expectation and outcome, or literal wording and intended meaning.</p>
+<ul>
+<li><strong>Verbal irony:</strong> Words suggest a meaning different from the literal wording, often through tone.</li>
+<li><strong>Situational irony:</strong> The outcome sharply contrasts with what is expected.</li>
+<li><strong>Dramatic irony:</strong> The audience knows something important that a character does not know.</li>
+</ul>
+<div class="example">A student arrives three hours late and says, “I am exceptionally punctual today.” The statement is verbally ironic.</div>
+
+<h3>Parody</h3>
+<p><strong>Parody</strong> imitates the style, structure or features of a recognizable work, person or genre, usually for humour or criticism.</p>
+<div class="example">A comedy imitates the exaggerated language of a serious heroic speech to make the style look ridiculous.</div>
+
+<h3>Satire</h3>
+<p><strong>Satire</strong> uses humour, irony, exaggeration or ridicule to expose foolishness, corruption, hypocrisy or social problems.</p>
+<div class="example">A fictional city creates a “Department of Common Sense” that never makes a sensible decision. The target is bureaucratic incompetence.</div>
+
+<table><tr><th>Feature</th><th>Irony</th><th>Parody</th><th>Satire</th></tr>
+<tr><td>Main focus</td><td>Contrast</td><td>Imitation</td><td>Criticism of a flaw</td></tr>
+<tr><td>Must imitate a known style?</td><td>No</td><td>Usually yes</td><td>No</td></tr>
+<tr><td>Must be humorous?</td><td>No</td><td>Usually</td><td>Often, but not always</td></tr>
+<tr><td>Purpose</td><td>Create contrast or implied meaning</td><td>Expose stylistic habits or entertain</td><td>Encourage reflection or criticize society</td></tr></table>
+<div class="roman"><strong>Roman Urdu trick:</strong> Irony = ulta contrast. Parody = kisi style ki copy with humour. Satire = society ya kisi flaw par tanqeed, aksar humour ke zariye.</div>
+</section>
+
+<section class="card">
+<h2>2.3 — Pronoun–Antecedent Agreement</h2>
+<h3>Basic rule</h3>
+<p>A <strong>pronoun</strong> must agree with its <strong>antecedent</strong>, the noun or noun phrase to which it refers, in number and appropriate person. In some contexts, gender or natural gender also matters.</p>
+<div class="example">Incorrect: The students submitted <em>his</em> assignment.<br>Correct: The students submitted <em>their</em> assignments.</div>
+
+<h3>Number agreement</h3>
+<table><tr><th>Singular antecedent</th><th>Plural antecedent</th></tr>
+<tr><td>The boy lost <strong>his</strong> pen.</td><td>The boys lost <strong>their</strong> pens.</td></tr>
+<tr><td>The machine completed <strong>its</strong> task.</td><td>The machines completed <strong>their</strong> tasks.</td></tr></table>
+
+<h3>Indefinite pronouns</h3>
+<table><tr><th>Always singular</th><th>Always plural</th><th>Depends on noun after “of”</th></tr>
+<tr><td>each, everyone, everybody, anyone, anybody, someone, nobody, neither, either</td><td>both, few, many, several</td><td>all, some, none, most, any</td></tr>
+<tr><td>Everyone must bring <strong>his or her/their</strong> ID.</td><td>Many have completed <strong>their</strong> work.</td><td>Some of the water has lost <strong>its</strong> purity.<br>Some of the students have submitted <strong>their</strong> work.</td></tr></table>
+<p>In modern standard English, singular <em>they/their</em> is widely accepted for an individual whose gender is unknown or irrelevant. Follow the style expected by the exam or institution.</p>
+
+<h3>Compound antecedents</h3>
+<ul>
+<li>Noun joined by <strong>and</strong> is usually plural: “Ali and Hamza brought <strong>their</strong> books.”</li>
+<li>Nouns joined by <strong>or/nor</strong>: agreement commonly follows the nearer antecedent in formal constructions, though rewriting is often clearer.</li>
+<li>Collective nouns depend on whether the group acts as one unit or as individuals, and on the variety of English being used.</li>
+</ul>
+
+<h3>Ambiguous reference</h3>
+<div class="example">Unclear: When Ahmed spoke to Bilal, <em>he</em> was angry.<br>Clear: Ahmed was angry when he spoke to Bilal.<br>Clear: When Ahmed spoke to Bilal, Bilal was angry.</div>
+<div class="roman"><strong>Roman Urdu:</strong> Pronoun ka “address” clear hona chahiye. Agar sentence mein do male names hon aur “he” samajh na aaye kis ko refer kar raha hai, sentence ambiguous hai.</div>
+
+<h3>Common traps</h3>
+<ul>
+<li>Words between antecedent and pronoun do not change the antecedent’s number.</li>
+<li><em>Each</em> and <em>every</em> are grammatically singular.</li>
+<li>A phrase beginning with <em>of</em> may distract you from the real antecedent.</li>
+<li>Do not confuse subject agreement with pronoun agreement.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>2.4 — Tenses</h2>
+<p>English traditionally teaches 12 tense-aspect forms: present, past and future combined with simple, continuous, perfect and perfect continuous.</p>
+<table><tr><th>Time</th><th>Simple</th><th>Continuous</th><th>Perfect</th><th>Perfect continuous</th></tr>
+<tr><td>Present</td><td>write/writes</td><td>am/is/are writing</td><td>has/have written</td><td>has/have been writing</td></tr>
+<tr><td>Past</td><td>wrote</td><td>was/were writing</td><td>had written</td><td>had been writing</td></tr>
+<tr><td>Future</td><td>will write</td><td>will be writing</td><td>will have written</td><td>will have been writing</td></tr></table>
+
+<h3>Present tenses</h3>
+<table><tr><th>Tense</th><th>Form</th><th>Main use</th><th>Example</th></tr>
+<tr><td>Present simple</td><td>Subject + base verb/s</td><td>Habit, fact, routine, timetable</td><td>Water boils at 100°C.</td></tr>
+<tr><td>Present continuous</td><td>am/is/are + -ing</td><td>Action now, temporary situation, arranged future</td><td>She is preparing for the test.</td></tr>
+<tr><td>Present perfect</td><td>has/have + past participle</td><td>Past action linked to present; life experience; unfinished time</td><td>He has completed three chapters.</td></tr>
+<tr><td>Present perfect continuous</td><td>has/have been + -ing</td><td>Duration continuing to now or recent visible result</td><td>They have been studying for two hours.</td></tr></table>
+
+<h3>Past tenses</h3>
+<table><tr><th>Tense</th><th>Form</th><th>Main use</th><th>Example</th></tr>
+<tr><td>Past simple</td><td>Past form</td><td>Completed past event</td><td>She visited Lahore last week.</td></tr>
+<tr><td>Past continuous</td><td>was/were + -ing</td><td>Action in progress at a past time; background action</td><td>I was reading when he called.</td></tr>
+<tr><td>Past perfect</td><td>had + past participle</td><td>Earlier of two past events</td><td>The train had left before we arrived.</td></tr>
+<tr><td>Past perfect continuous</td><td>had been + -ing</td><td>Duration before a past point</td><td>She had been waiting for an hour before the bus came.</td></tr></table>
+
+<h3>Future tenses</h3>
+<table><tr><th>Tense</th><th>Form</th><th>Main use</th><th>Example</th></tr>
+<tr><td>Future simple</td><td>will + base verb</td><td>Prediction, decision, promise</td><td>I will help you.</td></tr>
+<tr><td>Future continuous</td><td>will be + -ing</td><td>Action in progress at a future time</td><td>At 8 p.m., I will be revising.</td></tr>
+<tr><td>Future perfect</td><td>will have + past participle</td><td>Completed before a future deadline</td><td>By Friday, she will have finished the unit.</td></tr>
+<tr><td>Future perfect continuous</td><td>will have been + -ing</td><td>Duration up to a future point</td><td>By June, he will have been working here for a year.</td></tr></table>
+
+<h3>High-yield tense rules</h3>
+<ul>
+<li>After <em>did</em>, use the base verb: “Did he go?” not “Did he went?”</li>
+<li>After <em>has/have/had</em> in perfect tenses, use the past participle: “has eaten,” “had written.”</li>
+<li>Use present simple in many time clauses referring to the future: “When he arrives, we will begin.”</li>
+<li>Stative verbs such as <em>know, believe, own, understand</em> are not normally used in continuous forms in ordinary usage.</li>
+<li>Use <em>since</em> for a starting point and <em>for</em> for a duration: “since Monday,” “for three days.”</li>
+<li>Use past perfect only when the sequence of past events needs clarification or emphasis.</li>
+</ul>
+<div class="roman"><strong>Roman Urdu formula:</strong> Simple = routine/fact. Continuous = action chal raha hai. Perfect = action complete with a connection. Perfect continuous = duration par focus.</div>
+</section>
+
+<section class="card">
+<h2>2.5 — Infinitives and Infinitive Phrases</h2>
+<h3>What is an infinitive?</h3>
+<p>An infinitive is usually <strong>to + base verb</strong>, such as <em>to read, to understand, to succeed</em>. A bare infinitive is the base verb without <em>to</em>.</p>
+<h3>Functions of infinitives</h3>
+<table><tr><th>Function</th><th>Example</th><th>Role</th></tr>
+<tr><td>Noun-like subject</td><td><em>To learn</em> is valuable.</td><td>Subject</td></tr>
+<tr><td>Object</td><td>She wants <em>to improve</em>.</td><td>Object of wants</td></tr>
+<tr><td>Complement</td><td>His aim is <em>to qualify</em>.</td><td>Subject complement</td></tr>
+<tr><td>Adjective-like</td><td>I have a book <em>to read</em>.</td><td>Modifies book</td></tr>
+<tr><td>Adverb-like purpose</td><td>He studied hard <em>to pass</em>.</td><td>Explains purpose</td></tr></table>
+
+<h3>Infinitive phrases</h3>
+<p>An infinitive phrase contains an infinitive plus its objects, complements or modifiers.</p>
+<div class="example"><strong>To solve the difficult problem without assistance</strong> requires patience.<br>Infinitive: <em>to solve</em><br>Object: <em>the difficult problem</em><br>Modifier: <em>without assistance</em><br>Whole phrase: subject of the sentence.</div>
+
+<h3>To-infinitive vs bare infinitive</h3>
+<table><tr><th>Use to-infinitive</th><th>Use bare infinitive</th></tr>
+<tr><td>want to go</td><td>let him go</td></tr>
+<tr><td>decide to leave</td><td>make her leave</td></tr>
+<tr><td>hope to succeed</td><td>modal + base verb: can go, must study</td></tr>
+<tr><td>It is easy to understand.</td><td>had better revise</td></tr></table>
+
+<h3>Advanced forms</h3>
+<table><tr><th>Form</th><th>Example</th><th>Meaning</th></tr>
+<tr><td>Passive infinitive</td><td>to be examined</td><td>Action received by subject</td></tr>
+<tr><td>Perfect infinitive</td><td>to have finished</td><td>Earlier action</td></tr>
+<tr><td>Perfect passive infinitive</td><td>to have been selected</td><td>Earlier received action</td></tr>
+<tr><td>Continuous infinitive</td><td>to be studying</td><td>Action in progress</td></tr></table>
+
+<h3>Common infinitive errors</h3>
+<ul>
+<li>After a modal, do not add <em>to</em>: “She can swim,” not “can to swim.”</li>
+<li>After <em>make</em> and <em>let</em> in active constructions, use the bare infinitive.</li>
+<li>After <em>allow</em>, use an object + to-infinitive: “They allowed him to leave.”</li>
+<li>Do not confuse an infinitive phrase with a prepositional phrase beginning with <em>to</em>.</li>
+<li>A split infinitive is not automatically incorrect: “to carefully examine” is often clear and natural.</li>
+</ul>
+<div class="roman"><strong>Roman Urdu trick:</strong> Infinitive ko aksar “to + verb” se pehchanein, lekin modal, let aur make ke baad bare verb aata hai. “To” har jagah infinitive ka signal nahi hota.</div>
+</section>
+
+<section class="card">
+<h2>2.6 — Gerunds and Gerund Phrases</h2>
+<h3>What is a gerund?</h3>
+<p>A gerund is the <strong>-ing</strong> form of a verb functioning as a noun.</p>
+<div class="example"><em>Swimming</em> improves stamina.<br>“Swimming” comes from a verb but functions as the subject, so it is a gerund.</div>
+
+<h3>Gerund functions</h3>
+<table><tr><th>Function</th><th>Example</th></tr>
+<tr><td>Subject</td><td><em>Reading</em> improves vocabulary.</td></tr>
+<tr><td>Object of a verb</td><td>She enjoys <em>reading</em>.</td></tr>
+<tr><td>Object of a preposition</td><td>He is interested in <em>learning</em>.</td></tr>
+<tr><td>Subject complement</td><td>Her favourite activity is <em>painting</em>.</td></tr>
+<tr><td>After possessive</td><td>I appreciate <em>your helping</em> me.</td></tr></table>
+
+<h3>Gerund phrases</h3>
+<p>A gerund phrase includes a gerund plus its object, complement or modifiers.</p>
+<div class="example"><strong>Carefully reviewing the evidence before the hearing</strong> prevented a serious mistake.<br>Gerund: <em>reviewing</em><br>Object: <em>the evidence</em><br>Modifiers: <em>carefully</em> and <em>before the hearing</em><br>Whole phrase: subject.</div>
+
+<h3>Gerund vs present participle</h3>
+<table><tr><th>Gerund</th><th>Present participle</th></tr>
+<tr><td>Functions as a noun: <em>Running</em> is healthy.</td><td>Functions in a verb phrase or as an adjective: She is <em>running</em>.</td></tr>
+<tr><td>His hobby is <em>painting</em>.</td><td>The <em>painting</em> child smiled.</td></tr></table>
+
+<h3>Verbs followed by gerunds</h3>
+<p>Common examples: <em>enjoy, avoid, admit, deny, consider, suggest, finish, postpone, practise, risk, mind</em>.</p>
+<div class="example">Correct: She avoided <em>making</em> the same mistake.<br>Incorrect in standard exam usage: She avoided <em>to make</em> the same mistake.</div>
+
+<h3>Gerund or infinitive: meaning can change</h3>
+<table><tr><th>Expression</th><th>Meaning</th></tr>
+<tr><td>remember doing</td><td>Recall a past action</td></tr>
+<tr><td>remember to do</td><td>Not forget a future/intended action</td></tr>
+<tr><td>stop doing</td><td>Quit an activity</td></tr>
+<tr><td>stop to do</td><td>Pause one activity in order to do another</td></tr>
+<tr><td>try doing</td><td>Experiment with a method</td></tr>
+<tr><td>try to do</td><td>Make an effort</td></tr></table>
+
+<div class="roman"><strong>Roman Urdu trick:</strong> Gerund -ing form hota hai jo noun ka kaam karta hai. Agar “-ing” subject, object ya preposition ke baad noun ki position mein hai, gerund ka chance strong hai.</div>
+</section>
+
+<section class="card">
+<h2>Integrated Grammar Analysis</h2>
+<div class="example">“After completing the assignment, Sara decided to review her answers because everyone in the group had made at least one error.”</div>
+<table><tr><th>Element</th><th>Analysis</th></tr>
+<tr><td>completing</td><td>Gerund-participial form in a non-finite clause; here it introduces an action completed before the main action.</td></tr>
+<tr><td>to review</td><td>To-infinitive functioning as the complement of “decided.”</td></tr>
+<tr><td>everyone</td><td>Singular indefinite pronoun for agreement purposes.</td></tr>
+<tr><td>had made</td><td>Past perfect, showing an earlier past action relative to another past reference point.</td></tr>
+<tr><td>their/its issue</td><td>If referring to “everyone,” formal traditional agreement uses “his or her,” while singular “they/their” is widely accepted in modern English.</td></tr></table>
+</section>
+
+<section class="card">
+<h2>Advanced Practice MCQs</h2>
+<p class="small">Attempt the questions, then reveal the answer and explanation.</p>
+<div class="progress"><span id="bar"></span></div><p id="score" class="small">0 of 18 answered correctly</p>
+
+<div class="mcq" data-answer="C"><p><strong>1.</strong> “The scientist’s explanation was plausible but not conclusive.” Plausible means:</p><div class="options"><label><input type="radio" name="q1" value="A"> A. impossible</label><label><input type="radio" name="q1" value="B"> B. fully proven</label><label><input type="radio" name="q1" value="C"> C. reasonable or believable</label><label><input type="radio" name="q1" value="D"> D. irrelevant</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>C.</strong> “But not conclusive” indicates that it is believable without being final proof.</div></div>
+
+<div class="mcq" data-answer="B"><p><strong>2.</strong> Which word has the strongest negative shade?</p><div class="options"><label><input type="radio" name="q2" value="A"> A. economical</label><label><input type="radio" name="q2" value="B"> B. miserly</label><label><input type="radio" name="q2" value="C"> C. thrifty</label><label><input type="radio" name="q2" value="D"> D. economical-minded</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>B.</strong> “Miserly” strongly suggests an excessively unwilling attitude toward spending.</div></div>
+
+<div class="mcq" data-answer="D"><p><strong>3.</strong> A comedy imitates the style of a famous epic poem to mock its exaggerated heroism. This is primarily:</p><div class="options"><label><input type="radio" name="q3" value="A"> A. a definition</label><label><input type="radio" name="q3" value="B"> B. a literal statement</label><label><input type="radio" name="q3" value="C"> C. a tense shift</label><label><input type="radio" name="q3" value="D"> D. parody</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>D.</strong> It imitates a recognizable style for comic or critical effect.</div></div>
+
+<div class="mcq" data-answer="A"><p><strong>4.</strong> A fictional office creates a committee to eliminate unnecessary committees, then forms five new committees. This most clearly illustrates:</p><div class="options"><label><input type="radio" name="q4" value="A"> A. satire</label><label><input type="radio" name="q4" value="B"> B. literal reporting</label><label><input type="radio" name="q4" value="C"> C. a synonym</label><label><input type="radio" name="q4" value="D"> D. a tense marker</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>A.</strong> The situation criticizes bureaucratic inefficiency through exaggeration and humour.</div></div>
+
+<div class="mcq" data-answer="C"><p><strong>5.</strong> Choose the correct sentence.</p><div class="options"><label><input type="radio" name="q5" value="A"> A. Each of the players brought their uniform. (traditional formal agreement)</label><label><input type="radio" name="q5" value="B"> B. Each of the players brought our uniform.</label><label><input type="radio" name="q5" value="C"> C. Each of the players brought his or her uniform.</label><label><input type="radio" name="q5" value="D"> D. Each of the players brought its uniform.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>C.</strong> “Each” is singular in traditional formal agreement. Singular “they” is also widely accepted in contemporary English.</div></div>
+
+<div class="mcq" data-answer="B"><p><strong>6.</strong> “Some of the water has evaporated, but some of the students have remained.” Why do the verbs differ?</p><div class="options"><label><input type="radio" name="q6" value="A"> A. Some is always singular.</label><label><input type="radio" name="q6" value="B"> B. Agreement depends on the noun after “of.”</label><label><input type="radio" name="q6" value="C"> C. Water is plural.</label><label><input type="radio" name="q6" value="D"> D. Students is singular.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>B.</strong> “Water” is uncountable singular; “students” is plural.</div></div>
+
+<div class="mcq" data-answer="D"><p><strong>7.</strong> “When Ahmed met Bilal, he was upset.” The main grammatical problem is:</p><div class="options"><label><input type="radio" name="q7" value="A"> A. tense</label><label><input type="radio" name="q7" value="B"> B. spelling</label><label><input type="radio" name="q7" value="C"> C. article use</label><label><input type="radio" name="q7" value="D"> D. ambiguous pronoun reference</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>D.</strong> “He” may refer to Ahmed or Bilal. Rewrite for clarity.</div></div>
+
+<div class="mcq" data-answer="A"><p><strong>8.</strong> Which sentence correctly uses the present perfect?</p><div class="options"><label><input type="radio" name="q8" value="A"> A. She has completed the assignment.</label><label><input type="radio" name="q8" value="B"> B. She has complete the assignment.</label><label><input type="radio" name="q8" value="C"> C. She have completed the assignment.</label><label><input type="radio" name="q8" value="D"> D. She did has completed the assignment.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>A.</strong> Present perfect = has/have + past participle.</div></div>
+
+<div class="mcq" data-answer="C"><p><strong>9.</strong> “By next Monday, they ______ the project.”</p><div class="options"><label><input type="radio" name="q9" value="A"> A. complete</label><label><input type="radio" name="q9" value="B"> B. completed</label><label><input type="radio" name="q9" value="C"> C. will have completed</label><label><input type="radio" name="q9" value="D"> D. have completing</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>C.</strong> Future perfect describes completion before a future deadline.</div></div>
+
+<div class="mcq" data-answer="B"><p><strong>10.</strong> “I was studying when the lights went out.” The past continuous expresses:</p><div class="options"><label><input type="radio" name="q10" value="A"> A. a completed action before another past action</label><label><input type="radio" name="q10" value="B"> B. an action in progress interrupted by another event</label><label><input type="radio" name="q10" value="C"> C. a general truth</label><label><input type="radio" name="q10" value="D"> D. a future plan</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>B.</strong> “Was studying” is the background action; “went out” is the interrupting event.</div></div>
+
+<div class="mcq" data-answer="D"><p><strong>11.</strong> Choose the correct form: “She decided ______ harder.”</p><div class="options"><label><input type="radio" name="q11" value="A"> A. studying</label><label><input type="radio" name="q11" value="B"> B. study</label><label><input type="radio" name="q11" value="C"> C. studied</label><label><input type="radio" name="q11" value="D"> D. to study</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>D.</strong> “Decide” is normally followed by a to-infinitive.</div></div>
+
+<div class="mcq" data-answer="A"><p><strong>12.</strong> Which sentence contains an infinitive phrase functioning as the subject?</p><div class="options"><label><input type="radio" name="q12" value="A"> A. To understand the theory requires concentration.</label><label><input type="radio" name="q12" value="B"> B. She is understanding the theory.</label><label><input type="radio" name="q12" value="C"> C. Understanding is difficultly.</label><label><input type="radio" name="q12" value="D"> D. The theory understood.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>A.</strong> “To understand the theory” is the subject of “requires.”</div></div>
+
+<div class="mcq" data-answer="C"><p><strong>13.</strong> Which sentence correctly uses a bare infinitive?</p><div class="options"><label><input type="radio" name="q13" value="A"> A. She can to swim.</label><label><input type="radio" name="q13" value="B"> B. She can swimming.</label><label><input type="radio" name="q13" value="C"> C. She can swim.</label><label><input type="radio" name="q13" value="D"> D. She can swam.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>C.</strong> Modal verbs are followed by the base form without “to.”</div></div>
+
+<div class="mcq" data-answer="B"><p><strong>14.</strong> In “He avoided answering the question,” “answering” is:</p><div class="options"><label><input type="radio" name="q14" value="A"> A. a finite verb</label><label><input type="radio" name="q14" value="B"> B. a gerund functioning as the object of avoided</label><label><input type="radio" name="q14" value="C"> C. a past tense verb</label><label><input type="radio" name="q14" value="D"> D. an adjective modifying he</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>B.</strong> “Avoid” is followed by a gerund phrase: “answering the question.”</div></div>
+
+<div class="mcq" data-answer="D"><p><strong>15.</strong> Which sentence contains a gerund phrase as the subject?</p><div class="options"><label><input type="radio" name="q15" value="A"> A. She is running quickly.</label><label><input type="radio" name="q15" value="B"> B. The running water is cold.</label><label><input type="radio" name="q15" value="C"> C. She ran quickly.</label><label><input type="radio" name="q15" value="D"> D. Reviewing the evidence carefully prevented an error.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>D.</strong> “Reviewing the evidence carefully” functions as the subject.</div></div>
+
+<div class="mcq" data-answer="A"><p><strong>16.</strong> “He stopped smoking” means:</p><div class="options"><label><input type="radio" name="q16" value="A"> A. He quit the activity of smoking.</label><label><input type="radio" name="q16" value="B"> B. He paused another activity to smoke.</label><label><input type="radio" name="q16" value="C"> C. He began smoking.</label><label><input type="radio" name="q16" value="D"> D. He promised to smoke.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>A.</strong> Stop + gerund means cease the activity.</div></div>
+
+<div class="mcq" data-answer="C"><p><strong>17.</strong> “He stopped to check the map” means:</p><div class="options"><label><input type="radio" name="q17" value="A"> A. He permanently quit checking maps.</label><label><input type="radio" name="q17" value="B"> B. He had already checked the map.</label><label><input type="radio" name="q17" value="C"> C. He paused another activity in order to check the map.</label><label><input type="radio" name="q17" value="D"> D. He avoided checking the map.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>C.</strong> Stop + to-infinitive expresses purpose.</div></div>
+
+<div class="mcq" data-answer="B"><p><strong>18.</strong> Which sentence contains a perfect infinitive?</p><div class="options"><label><input type="radio" name="q18" value="A"> A. She wants studying.</label><label><input type="radio" name="q18" value="B"> B. He seems to have forgotten the appointment.</label><label><input type="radio" name="q18" value="C"> C. They are forget.</label><label><input type="radio" name="q18" value="D"> D. He forgot to have.</label></div><button class="reveal">Reveal answer</button><div class="answer"><strong>B.</strong> “To have forgotten” is the perfect infinitive: to + have + past participle.</div></div>
+</section>
+
+<section class="card">
+<h2>Final One-Page Revision</h2>
+<ul>
+<li>Context clues: definition, synonym, antonym, example, cause-effect and inference.</li>
+<li>Synonyms may differ in intensity, register, connotation and emotional tone.</li>
+<li>Irony = contrast; parody = imitation; satire = criticism through humour or ridicule.</li>
+<li>Pronouns must agree with antecedents in number and appropriate person.</li>
+<li>Each/every/everyone are traditionally singular; all/some/most depend on the noun after “of.”</li>
+<li>Simple = fact/routine; continuous = action in progress; perfect = completed/link; perfect continuous = duration.</li>
+<li>Infinitive = to + base verb, but modals, let and make commonly take the bare infinitive.</li>
+<li>Gerund = -ing form functioning as a noun; gerund phrase includes its modifiers and objects.</li>
+<li>Stop doing = quit; stop to do = pause for a purpose.</li>
+</ul>
+<div class="roman"><strong>Master formula:</strong> Meaning ko context se verify karein → synonym ka shade check karein → pronoun ka antecedent identify karein → tense ka time relationship samjhein → infinitive/gerund ka grammatical function dekhein.</div>
+</section>
+
+<footer>PMDC MDCAT English Revision System • Division 02 • Language and Grammar Skills</footer>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+(function(){
+const root=document.getElementById('document');
+const mcqs=[...document.querySelectorAll('.mcq')];
+function score(){
+ let answered=0,correct=0;
+ mcqs.forEach(m=>{const x=m.querySelector('input:checked');if(x){answered++;if(x.value===m.dataset.answer)correct++;}});
+ document.getElementById('score').textContent=correct+' of '+mcqs.length+' answered correctly; '+answered+' attempted';
+ document.querySelector('#bar').style.width=(answered/mcqs.length*100)+'%';
+}
+document.querySelectorAll('input[type=radio]').forEach(x=>x.addEventListener('change',score));
+document.querySelectorAll('.reveal').forEach(b=>b.addEventListener('click',()=>{
+ const a=b.nextElementSibling;
+ a.style.display=a.style.display==='block'?'none':'block';
+ b.textContent=a.style.display==='block'?'Hide answer':'Reveal answer';
+}));
+document.getElementById('reset').addEventListener('click',()=>{
+ document.querySelectorAll('input[type=radio]').forEach(x=>x.checked=false);
+ document.querySelectorAll('.answer').forEach(x=>x.style.display='none');
+ document.querySelectorAll('.reveal').forEach(x=>x.textContent='Reveal answer');
+ score();
+});
+let expanded=false;
+document.getElementById('expand').addEventListener('click',()=>{
+ expanded=!expanded;
+ document.querySelectorAll('.answer').forEach(x=>x.style.display=expanded?'block':'none');
+ document.querySelectorAll('.reveal').forEach(x=>x.textContent=expanded?'Hide answer':'Reveal answer');
+ document.getElementById('expand').textContent=expanded?'Collapse answers':'Expand answers';
+});
+document.getElementById('pdf').addEventListener('click',async()=>{
+ const btn=document.getElementById('pdf');
+ if(!window.html2canvas||!window.jspdf){alert('PDF libraries could not load. Please check your internet connection.');return;}
+ btn.disabled=true;btn.textContent='Preparing PDF...';
+ const controls=root.querySelectorAll('button');
+ controls.forEach(x=>x.style.display='none');
+ try{
+  const canvas=await html2canvas(root,{scale:1.6,backgroundColor:'#f4f7fa',useCORS:true});
+  const {jsPDF}=window.jspdf;
+  const pdf=new jsPDF('p','mm','a4');
+  const margin=10, pageW=210, pageH=297, usableW=pageW-2*margin;
+  const pxPerMm=canvas.width/usableW;
+  const slicePx=Math.floor((pageH-2*margin)*pxPerMm);
+  let y=0,page=0;
+  while(y<canvas.height){
+   if(page>0)pdf.addPage();
+   const h=Math.min(slicePx,canvas.height-y);
+   const slice=document.createElement('canvas');
+   slice.width=canvas.width;slice.height=h;
+   slice.getContext('2d').drawImage(canvas,0,y,canvas.width,h,0,0,canvas.width,h);
+   pdf.addImage(slice.toDataURL('image/jpeg',.94),'JPEG',margin,margin,usableW,h/pxPerMm);
+   y+=h;page++;
+  }
+  pdf.save('PMDC_MDCAT_English_Division_02_Language_and_Grammar_Skills.pdf');
+ }catch(e){alert('PDF export failed: '+e.message);}
+ controls.forEach(x=>x.style.display='');
+ btn.disabled=false;btn.textContent='Export as PDF';
+});
+})();
+</script>
+</body>
+</html>

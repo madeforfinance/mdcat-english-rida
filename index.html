@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PMDC MDCAT English Revision Dashboard</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@400;500;600;700;800&display=swap');
+:root{--navy:#0b1f3a;--blue:#173b68;--gold:#d4af37;--bg:#f4f7fb;--card:#fff;--text:#172033;--muted:#64748b;--border:#dce4ef}
+*{box-sizing:border-box} body{margin:0;background:linear-gradient(135deg,#eef4fb,#fff);color:var(--text);font-family:Inter,Arial,sans-serif}
+.container{max-width:1180px;margin:auto;padding:28px 18px 42px}.hero{background:var(--navy);color:white;border-radius:24px;padding:34px;position:relative;overflow:hidden;box-shadow:0 18px 45px rgba(11,31,58,.18)}
+.hero:after{content:"";position:absolute;width:300px;height:300px;border:1px solid rgba(212,175,55,.35);border-radius:50%;right:-90px;top:-120px;box-shadow:0 0 0 35px rgba(212,175,55,.06),0 0 0 70px rgba(212,175,55,.04)}
+.kicker{color:#e9cf72;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:800}.hero h1{font-family:Handlee,cursive;font-size:clamp(32px,5vw,54px);line-height:1.08;margin:10px 0}.made-for{display:inline-block;margin:8px 0 16px;padding:9px 14px;border:1px solid rgba(233,207,114,.7);border-radius:999px;background:rgba(212,175,55,.14);color:#f7df88;font-size:clamp(15px,2vw,19px);font-weight:700}.made-for strong{color:#fff4b8}.hero p{max-width:760px;color:#d8e4f5;line-height:1.7;margin:0}.stats{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:12px 16px}.stat strong{display:block;font-size:22px}.stat span{font-size:12px;color:#d8e4f5}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:32px 0 16px}.section-head h2{margin:0;font-size:24px}.section-head p{margin:5px 0 0;color:var(--muted);font-size:14px}.search{width:100%;max-width:320px;border:1px solid var(--border);border-radius:12px;padding:12px 14px;font:inherit;background:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:13px;box-shadow:0 7px 20px rgba(30,55,90,.06);transition:transform .18s,box-shadow .18s}.number{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:#eaf1fb;color:var(--blue);font-weight:800}.card h3{margin:0;font-size:18px;line-height:1.35}.card p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}.tag{font-size:11px;font-weight:700;color:#806516;background:#fff8df;border:1px solid #f0df9e;border-radius:999px;padding:5px 9px;display:inline-block}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:auto;padding-top:5px}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:10px;padding:11px 13px;font-size:13px;font-weight:700;border:1px solid var(--border);color:var(--blue);background:white}.btn.primary{background:var(--navy);border-color:var(--navy);color:white}.btn:hover{filter:brightness(.97)}.footer{margin-top:34px;text-align:center;color:var(--muted);font-size:12px;line-height:1.7}.motivation{margin-top:28px;padding:18px 22px;border:2px solid #e6c85c;border-radius:16px;background:linear-gradient(135deg,#fff8dc,#fffdf5);color:#0b1f3a;font-size:clamp(17px,2.4vw,23px);font-weight:800;line-height:1.5;text-align:center;box-shadow:0 8px 22px rgba(212,175,55,.14)}.motivation .name{color:#173b68}.motivation .wish{color:#9a7410}.empty{display:none;padding:25px;background:white;border:1px dashed var(--border);border-radius:14px;color:var(--muted)}
+@media(max-width:650px){.hero{padding:25px}.section-head{align-items:stretch;flex-direction:column}.search{max-width:none}.container{padding:15px 12px 30px}}
+@media(hover:hover) and (pointer:fine){.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(30,55,90,.11)}}
+</style>
+</head>
+<body>
+<main class="container">
+<section class="hero">
+<div class="kicker">PMDC MDCAT • English Preparation</div>
+<h1>English Revision Dashboard</h1><div class="made-for">Made for my sister, <strong>Dr. Rida Fatima</strong> 💙</div>
+<p>A central study hub for your division-wise English revision files. Open any division, study the concepts, practise the MCQs, and export the individual lesson file as PDF. Humanity has finally invented a way to organise grammar notes.</p>
+<div class="stats"><div class="stat"><strong>05</strong><span>Division files</span></div><div class="stat"><strong>100%</strong><span>Division-wise navigation</span></div></div>
+</section>
+<div class="section-head"><div><h2>Revision Files</h2><p>Click “Open File” to begin studying a division.</p></div><input class="search" id="search" type="search" placeholder="Search divisions or topics…" aria-label="Search revision files"></div>
+<section class="grid" id="fileGrid">
+<article class="card" data-search="division 01 reading thinking skills scanning short questions context figurative language">
+<div><span class="number">01</span></div><h3>Reading and Thinking Skills</h3><p>Scanning to answer short questions, deducing meaning from context, and analysing how writers and poets use language for figurative meaning.</p><div><span class="tag">Division 01</span></div><div class="actions"><a class="btn primary" href="PMDC_MDCAT_English_Division_01_Reading_and_Thinking_Skills.html">Open File ↗</a></div>
+</article>
+<article class="card" data-search="division 02 language grammar skills contextual clues synonyms pronoun antecedent tenses infinitives gerunds adverbs prepositions transitions punctuation">
+<div><span class="number">02</span></div><h3>Language and Grammar Skills</h3><p>Contextual clues, synonyms, pronoun–antecedent agreement, tenses, infinitives, gerunds, adverbs, prepositions, transitions, and punctuation.</p><div><span class="tag">Division 02</span></div><div class="actions"><a class="btn primary" href="PMDC_MDCAT_English_Division_02_Language_and_Grammar_Skills.html">Open File ↗</a></div>
+</article>
+<article class="card" data-search="division 03 grammar usage mechanics sentence classes phrases inversion active passive direct indirect speech">
+<div><span class="number">03</span></div><h3>Grammar, Usage and Mechanics</h3><p>Sentence classes and phrases, sentence inversion, active and passive voice, and direct and indirect speech for effective communication.</p><div><span class="tag">Division 03</span></div><div class="actions"><a class="btn primary" href="PMDC_MDCAT_English_Division_03_Grammar_Usage_and_Mechanics.html">Open File ↗</a></div>
+</article>
+<article class="card" data-search="division 04 sentence structure voice speech faulty structure subject verb agreement functions spelling">
+<div><span class="number">04</span></div><h3>Sentence Structure, Voice and Speech</h3><p>Advanced sentence structure, voice transformation, speech transformation, and related grammar usage for MDCAT-style questions.</p><div><span class="tag">Division 04</span></div><div class="actions"><a class="btn primary" href="PMDC_MDCAT_English_Division_04_Sentence_Structure_Voice_and_Speech.html">Open File ↗</a></div>
+</article>
+<article class="card" data-search="division 05 editing agreement spelling proofreading faulty sentence structure subject verb agreement functions spelling errors">
+<div><span class="number">05</span></div><h3>Editing, Agreement and Spelling</h3><p>Proofreading and editing, faulty sentence structure, subject–verb agreement, and errors of functions and spellings.</p><div><span class="tag">Division 05</span></div><div class="actions"><a class="btn primary" href="PMDC_MDCAT_English_Division_05_Editing_Agreement_and_Spelling.html">Open File ↗</a></div>
+</article>
+
+</section>
+<div class="empty" id="empty">No matching revision file found. Try another keyword.</div>
+<div class="motivation" role="note"><span class="wish">✨ Best of luck to you</span> <span class="name">Dr. Rida Fatima</span>.<br><span class="wish">Make your brother proud, InShaAllah! 💛</span></div>
+</main>
+<script>
+(function(){const input=document.getElementById('search');const cards=[...document.querySelectorAll('.card')];const empty=document.getElementById('empty');input.addEventListener('input',function(){const q=input.value.trim().toLowerCase();let count=0;cards.forEach(card=>{const match=card.dataset.search.includes(q);card.style.display=match?'flex':'none';if(match)count++;});empty.style.display=count?'none':'block';});})();
+</script>
+</body>
+</html>
